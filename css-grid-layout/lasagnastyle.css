@@ -16,8 +16,8 @@ div.container {
 
 main {
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr;
-    grid-column-gap: 3em;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2em;
 
 }
 
@@ -31,7 +31,7 @@ h1 {
 	background-color: rgb(255, 142, 52);
 	color: rgb(250,250,250); 
 	font-size: 2rem;
-	padding: 1.3em 0.8em 0.3em; 
+	padding: 1.3em 0.8em 0.1em; 
     line-height: 110%;
 	font-family: Sutro, serif;  
     font-weight: 700;  
@@ -41,7 +41,7 @@ h2 {
 	background-color: rgb(255, 142, 52);
 	color: rgb(249,222,191); 
 	font-size: 1.3rem;
-	padding: 0.3em 1.2em 1.2em; 
+	padding: 0.2em 1.2em 0.9em; 
     line-height: 100%;
     font-family: Sutro, serif;  
     font-weight: 300;  
@@ -50,8 +50,8 @@ h2 {
 
 figure{
     display: grid;
-    grid-template-columns: 77% 23%;
-    grid-column-gap 3em;
+    grid-template-columns: 3fr 1fr; 
+    grid-gap: 1em;
 }
 
 figcaption {
@@ -65,7 +65,7 @@ figcaption {
     line-height: 135%;
 }
 h3 {
-	margin: 1.5em 1.5em 0.2em; 
+	margin: 1.5em 1.5em 0.3em; 
 	padding-top: 0.75em;
 	font-size: 1.25rem;
 	color: rgb(255, 142, 52);
@@ -75,28 +75,34 @@ h3 {
 	letter-spacing: 0.1em; 
     border-top: solid;
     border-top-color: rgb(255, 142, 52);
+    position: relative;
+
+}
+
+ul, ol {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 0.9rem;
+
 }
 ul {
-	margin: 0.5em 1em 0.2em; 
-    padding: 0.5em 1em 0.2em; 
-    font-size: 0.9rem;
+	margin: 0.3em 1em 0.2em; 
+    padding: 0.3em 1em 0.2em; 
     font-family: poppins, sans-serif;  
     font-weight: 400;  
     line-height: 120%;
     font-style: normal;
-    grid-template-columns: 2fr 1fr;
+
     
 }
 
 ol {
-	margin: 0.5em 0.8em 0.5em; 
-    padding: 0.5em 0.8em 0.5em; 
+	margin: 0.3em 0.8em 0.5em; 
+    padding: 0.3em 0.8em 0.5em; 
     font-family: poppins, sans-serif;  
     font-weight: 400;  
-    font-size: 0.9rem;
     line-height: 125%;
     font-style: normal;
-    grid-template-columns: 2fr 1fr;
+
 
 
 }
