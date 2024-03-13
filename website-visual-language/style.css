@@ -211,7 +211,7 @@ article {
 	margin: auto;
 }
 
-@media screen and (max-width: 60em) {
+@media screen and (min-width: 60em) {
 	nav ul li {
 		display: inline;
 		font-size: 1.3em;
