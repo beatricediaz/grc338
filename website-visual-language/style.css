@@ -168,7 +168,7 @@ nav ul li.selected a {
 
 
 p.slogan {
-	font-size: 5rem;
+	font-size: 3rem;
 	margin-top: 10rem;
 	color: rgb(51, 51, 51);
 	text-align: center;
@@ -238,7 +238,7 @@ article {
 
 	}
 	p.slogan {
-		font-size: 3rem;
+		font-size: 5rem;
 	}
 
 }
