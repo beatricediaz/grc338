@@ -46,7 +46,7 @@ header {
 	display: grid;
 	grid-template-columns: 13rem auto;
 	background-color: rgb(255, 102, 0);
-	padding: 1em 0.5em;
+	padding: 1em 0.5em 0.5em;
 }
 
 h1 {
