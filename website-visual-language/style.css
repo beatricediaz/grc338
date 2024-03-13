@@ -198,7 +198,7 @@ address {
 	font-weight: 650;
 	font-style: normal;
 	text-align: center;
-	margin: 0rem;
+	margin:
 	font-size: 1.5rem;
 }
 
@@ -211,7 +211,7 @@ article {
 	margin: auto;
 }
 
-@media screen and (min-width: 60em) {
+@media screen and (max-width: 60em) {
 	nav ul li {
 		display: inline;
 		font-size: 1.3em;
@@ -238,7 +238,7 @@ article {
 
 	}
 	p.slogan {
-		font-size: 2rem;
+		font-size: 3rem;
 	}
 
 }
