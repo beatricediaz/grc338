@@ -173,7 +173,7 @@ p.slogan {
 	margin-top: 10rem;
 	margin-bottom: 1rem;
 	color: rgb(51, 51, 51);
-	text-align: center;
+	text-align: left;
 	font-family: "palomino-script", sans-serif;
 	font-weight: 500;
 	font-style: normal;
@@ -200,7 +200,7 @@ address {
 	font-family: "palomino-sans-one", sans-serif;
 	font-weight: 650;
 	font-style: normal;
-	text-align: center;
+	text-align: left;
 	margin-top: 0rem;
 	font-size: 1.5rem;
 }
