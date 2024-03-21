@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.typekit.net/qdg5ghe.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Ramen Republic</title>
+  </head>
+  <body>
+    <div class="home-container">
+      <header>
+        <h1>
+          <a href="index.html">
+            <img src="logo.svg" alt="Ramen Republic." />
+          </a>
+        </h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="about.html"> About </a>
+            </li>
+            <li>
+              <a href="menu.html"> Menu </a>
+            </li>
+            <li>
+              <a href="contact.html"> Contact </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <p class="slogan">Your Passport to Japan's Culinary Marvels</p>
+        <address>789 Harmony Lane, San Luis Obispo, CA</address>
+        <address>+1 (805) 555-6789</address>
+      </main>
+      <footer>
+        <p>© All rights reserved. Ramen Republic, 2024.</p>
+      </footer>
+    </div>
+  </body>
+</html>
