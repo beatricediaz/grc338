@@ -13,7 +13,7 @@ div.home-container {
 	min-height: 100vh;
 	max-width: 75em;
 	margin: auto;
-	
+
 
 }
 
@@ -191,7 +191,8 @@ footer {
 	background: rgb(240, 240, 240);
 }
 
-p.slogan, address{
+p.slogan,
+address {
 	width: 100%;
 }
 
@@ -237,9 +238,10 @@ article {
 	article {
 		max-width: 40em;
 		margin: auto;
-	
+
 
 	}
+
 	p.slogan {
 		font-size: 5rem;
 	}
